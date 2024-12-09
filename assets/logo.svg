@@ -1,0 +1,39 @@
+<svg version="1.1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500"><rect width="100%" height="100%" fill="#000000" fill-opacity="1"/><svg viewBox="-338.9115 362.3728 383.1431 222" width="333" height="192.94618642486319" x="83.5px" y="153.5269px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none"><defs></defs><style>.aRWrrEA-PR0filter-floo {flood-color:#E9B0D6;flood-opacity:0.5;}.atUk6sjh6M0filter-floo {flood-color:#FFFFFF;flood-opacity:0.89;}.companyName {fill:#FFFFFF;fill-opacity:1;}.icon3 {fill:#F55139;fill-opacity:1;}.icon3-str {stroke:#F55139;stroke-opacity:1;}.shape-floo {flood-color:#2525CE;flood-opacity:1;}</style><defs>
+      <filter
+        x="-338.9115"
+        y="362.3728"
+        width="383.1431"
+        height="222"
+        id="ikYEXSHZT"
+        filterUnits="userSpaceOnUse"
+        primitiveUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB">
+        
+    <feGaussianBlur in="SourceGraphic" stdDeviation="7"/>
+    <feOffset dx="3.860375059564381" dy="3.860375059564381" result="hf308jXZi2S"/>
+    <feFlood flood-color="#2525CE" flood-opacity="1" in="hf308jXZi2S" />
+    <feComposite  in2="hf308jXZi2S" operator="in" result="Jx-tQnE1Tge"/><feMerge result="LWMRJ5DMymS"><feMergeNode in="Jx-tQnE1Tge" /><feMergeNode in="SourceGraphic" /></feMerge><feGaussianBlur  result="dNPinpc0I8H" stdDeviation="10" />
+      </filter>
+      <filter
+        x="-291.771"
+        y="397.5124"
+        width="281.1413"
+        height="144"
+        id="tUk6sjh6M"
+        filterUnits="userSpaceOnUse"
+        primitiveUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB">
+        
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+    <feOffset dx="0" dy="0" result="nOJc7ihV-TV"/>
+    <feFlood flood-color="#FFFFFF" flood-opacity="0.89" in="nOJc7ihV-TV" />
+    <feComposite  in2="nOJc7ihV-TV" operator="in" result="Jm1QaBgiACy"/><feMerge result="NhW4wUF-5dh"><feMergeNode in="Jm1QaBgiACy" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter></defs><g filter="url(#ikYEXSHZT)"><g opacity="1" transform="rotate(0 -291.7719 409.5124)">
+<svg width="281.1431" height="120" x="-291.7719" y="409.5124" version="1.1" preserveAspectRatio="none" viewBox="-2.52 -28 65.6 28">
+  <g transform="matrix(1 0 0 1 0 0)" class="icon3"><path id="id-BEGfasMba2" d="M22.40 0L21.08-6L8.04-6L4.40 0L-2.52 0L15.60-28L22-28L28.88 0L22.40 0ZM11.04-10.92L20-10.92L17.64-21.72L11.04-10.92Z M56.68-28L63.08-28L57.48 0L52.16 0L41.72-17.52L38.20 0L31.80 0L37.40-28L42.76-28L53.20-10.44L56.68-28Z"/></g>
+</svg>
+</g></g><g filter="url(#tUk6sjh6M)"><g opacity="1" transform="rotate(0 -279.771 409.5124)">
+<svg width="257.1413" height="120" x="-279.771" y="409.5124" version="1.1" preserveAspectRatio="none" viewBox="-0.36 -28 60 28">
+  <g transform="matrix(1 0 0 1 0 0)" class="companyName"><path id="id-D6z1nYkh2" d="M24.24 0L21.76-6L8.76-6L6.28 0L-0.36 0L12.12-28L18.52-28L31.04 0L24.24 0ZM10.84-10.92L19.72-10.92L15.28-21.64L10.84-10.92Z M53.24-28L59.64-28L59.64 0L54.32 0L40.36-17L40.36 0L33.96 0L33.96-28L39.32-28L53.24-11L53.24-28Z"/></g>
+</svg>
+</g></g></svg></svg>
