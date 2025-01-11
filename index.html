@@ -1,73 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Antwon Napue</title>
-  <link rel="stylesheet" href="./style.css">
-  <script src="https://kit.fontawesome.com/53d98163df.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antwon Napue</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/53d98163df.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="about-me">
+      <!-- NAV BAR  -->
+      <nav>
+        <div class="personal__logo">Antwon Napue</div>
 
-  <section id="about-me">
-    <!-- NAV BAR  -->
-    <nav>
-      <div class="personal__logo">Antwon Napue</div>
-      <ul class="nav__link--list">
-        <li class="nav__">
-          <a href="" class="
-          nav__link--anchor
-          link__hover-effect
-          link__hover-effect--black
-          ">Languages</a>
-        </li>
-        <li class="nav__">
-          <a href="" class="
-          nav__link--anchor
-          link__hover-effect
-          link__hover-effect--black
-          ">Projects</a>
-        </li>
-        <li class="nav__">
-          <a href="" class="
-          nav__link--anchor
-          nav__link--anchor-primary
-          ">Contact</a>
-        </li>
-      </ul>
-    </nav>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href=""
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Languages</a
+            >
+          </li>
 
-    <!-- ABOUT ME INFO -->
-    <div class="flex flex-1">
-      <div class="about-me__info row">
-        <div class="about-me__info--container">
-          <figure class="about-me__picture--mask">
-            <img class="about-me__picture" src="./assets/Me.jpg" alt="Picture of me!">
+          <li class="nav__link">
+            <a
+              href=""
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+
+          <li class="nav__link">
+            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT ME INFO -->
+      <div class="flex flex-1">
+        <div class="about-me__info row">
+          <div class="about-me__info--container">
+            <figure class="about-me__picture--mask">
+              <img
+                class="about-me__picture"
+                src="./assets/Me.jpg"
+                alt="Picture of me!"
+              />
+            </figure>
+
+            <h1 class="about-me__info--title">
+              Hey! I'm <span class="purple">Antwon Napue</span>&nbsp<span
+                class="wave"
+                >👋🏾</span
+              >
+            </h1>
+
+            <p class="about-me__info--para">
+              I'm a <span class="purple">frontend software developer</span> with
+              a strong passion for building responsive and performant web
+              applications with great user experiences that positively impact
+              the world.
+            </p>
+
+            <div class="about-me__links">
+              <a href="" class="about-me__link">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a href="" class="about-me__link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a href="" class="about-me__link">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+
+              <a href="./assets/Example Resume.pdf" class="about-me__link" target="_blank">
+                <i class="fa-solid fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+
+          <figure class="about-me__img--container">
+            <img class="about-me__img" src="./assets/future.png" alt="" />
           </figure>
-          <h1 class="about-me__info--title">
-            Hey! I'm <span class="purple">Antwon Napue</span>
+        </div>
+      </div>
+    </section>
+    <!-- LANGUAGES  -->
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            This is my <span class="purple">technology stack</span>
           </h1>
-          <p class="about-me__info--para">I'm a <span class="purple">frontend software developer</span> with a strong passion for building responsive and performant web applications with great user experiences that positively impact the world.</p>
-          <div class="about-me__links">
-            <a href="" class="about-me__link">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="" class="about-me__link">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="" class="about-me__link">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="" class="about-me__link">
-              <i class="fa-regular fa-envelope"></i>
-            </a>
+
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="./assets/HTML5_shield.webp"
+                  alt=""
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">HTML</span>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="./assets/CSS3_logo.svg"
+                  alt=""
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="./assets/JavaScript.svg"
+                  alt=""
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">JAVASCRIPT</span>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="./assets/nodejs.png" alt="" class="language__img" />
+              </figure>
+              <span class="language__name">NODE JS</span>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="./assets/Python.svg" alt="" class="language__img" />
+              </figure>
+              <span class="language__name">PYTHON</span>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="./assets/React.webp" alt="" class="language__img" />
+              </figure>
+              <span class="language__name">REACT</span>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="./assets/SQL.webp" alt="" class="language__img" />
+              </figure>
+              <span class="language__name">SQL</span>
+            </div>
+
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="./assets/firebase.png" alt="" class="language__img" />
+              </figure>
+              <span class="language__name">FIREBASE</span>
+            </div>
           </div>
         </div>
-        <figure class="about-me__img--container">
-          <img class="about-me__img" src="./assets/future.png" alt="">
-        </figure>
       </div>
-    </div>
-  </section>
-</body>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="purple">projects</span>
+          </h1>
+
+          <ul class="project__list"></ul>
+          <li class="project">
+            <div class="project__wrapper">
+              <img class="project__img" src="assets/loopit.png" alt="" />
+
+              <div class="project__description">
+                <h3 class="project__description--title">Car Sales Project</h3>
+
+                <h4 class="project__description--sub-title">
+                  HTML, CSS, Javascript, Vue, Vuex
+                </h4>
+
+                <p class="project__description--para">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Earum, repellat vitae voluptas dolores ut delectus, sed
+                  eveniet magnam culpa, tempora quidem pariatur unde error
+                  sequi!
+                </p>
+
+                <div class="project__description--links">
+                  <a
+                    href="https://github.com/ADeshawn"
+                    target="_blank"
+                    class="project__description--link"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+
+                  <a
+                    href="https://github.com/ADeshawn"
+                    target="_blank"
+                    class="project__description--link"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__wrapper">
+              <img class="project__img" src="assets/dashboard.png" alt="" />
+              <div class="project__description">
+                <h3 class="project__description--title">Dashboard</h3>
+
+                <h4 class="project__description--sub-title">
+                  HTML, CSS, Javascript, Vue, Vuex
+                </h4>
+
+                <p class="project__description--para">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Earum, repellat vitae voluptas dolores ut delectus, sed
+                  eveniet magnam culpa, tempora quidem pariatur unde error
+                  sequi!
+                </p>
+
+                <div class="project__description--links">
+                  <a
+                    href="https://github.com/ADeshawn"
+                    target="_blank"
+                    class="project__description--link"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+
+                  <a
+                    href="https://github.com/ADeshawn"
+                    target="_blank"
+                    class="project__description--link"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__wrapper">
+              <img class="project__img" src="assets/chat.png" alt="" />
+              <div class="project__description">
+                <h3 class="project__description--title">Chat App</h3>
+
+                <h4 class="project__description--sub-title">
+                  HTML, CSS, Javascript, Vue, Vuex
+                </h4>
+
+                <p class="project__description--para">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Earum, repellat vitae voluptas dolores ut delectus, sed
+                  eveniet magnam culpa, tempora quidem pariatur unde error
+                  sequi!
+                </p>
+
+                <div class="project__description--links">
+                  <a
+                    href="https://github.com/ADeshawn"
+                    target="_blank"
+                    class="project__description--link"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+
+                  <a
+                    href="https://github.com/ADeshawn"
+                    target="_blank"
+                    class="project__description--link"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER  -->
+    <footer>
+      <div class="row footer__row">
+        <a class="footer__anchor" href="#">
+          <figure class="footer__logo">
+            <img class="footer__logo--image" src="./assets/logo.png" alt="" />
+          </figure>
+
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+
+        <div class="footer__social--list">
+          <a
+            href="https://google.com"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            >Github
+            </a>
+          <a
+            href="https://google.com"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            >LinkedIn
+          </a>
+          <a
+            href="mailto:antwonnapue523@gmail.com"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            >Email
+          </a>
+        </div>
+        <div class="footer__copyright--logo">Copyright © 2025 Antwon Napue</div>
+      </div>
+    </footer>
+  </body>
 </html>
